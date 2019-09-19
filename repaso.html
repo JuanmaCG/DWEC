@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Repaso</title>
+</head>
+<body>
+    
+    <h2>Numero total de empleados: <span id="empleados"></span></h2>
+    <table border="1px solid black" id="tabla">
+        <tr>
+            <td>Numero de Empleado</td>
+            <td>DNI</td>
+            <td>Nombre</td>
+            <td>Apellidos</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>77332344K</td>
+            <td>Maria</td>
+            <td>Perez Izquierdo</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>23445677J</td>
+            <td>Javier</td>
+            <td>Lopez Martines</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12345678H</td>
+            <td>Manuel</td>
+            <td>Sanchez Martos</td>
+        </tr>
+    </table>
+
+    Numero Empleado: <input type="number" id="numEmpleado">
+    DNI: <input type="text" id="dni">
+    Nombre: <input type="text" id="nombre">
+    Apellidos: <input type="text" id="apellidos">
+    <button onclick="anadir()">Anadir Empleado</button>
+    <button onclick="borrar()">Borrar Empleado</button>
+    <button onclick="modificar()">Modificar Empleado</button>
+
+    <script type="text/javascript" src="repaso.js"></script>
+</body>
+</html>
